@@ -29,7 +29,7 @@ const UserForm = () => {
                 <label htmlFor="">Confirm Password</label>
                 <input onChange = {(events)=>setCpassword(events.target.value)} type="password" /><br />
                 <input type="submit" />
-            </form>
+            </form> 
             <hr />
             <h1>User Info:</h1>
             Name: {fname} {lname} <br />
