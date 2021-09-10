@@ -54,7 +54,7 @@ const BoxGenerator = () => {
             <hr />
             {
                 listOfBoxs.map((box,i) =>{
-                    return <div key = {i} style = {{backgroundColor: box.boxColor,height:box.height,width:box.height, display: 'inline-block',marginRight:20}}>{box.boxColor} <button onClick={(e)=>deleteColor(e,i)}>Delete Color</button></div>
+                    return <div key = {i} style = {{backgroundColor: box.boxColor,height:box.height,width:box.height, display: 'inline-block',marginRight:20}}>{box.boxColor}<button onClick={(e)=>deleteColor(e,i)}>Delete Color</button></div>
                 })
             }
         </div>
